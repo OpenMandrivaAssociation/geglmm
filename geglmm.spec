@@ -1,5 +1,5 @@
 %define	name	geglmm
-%define	version	0.0.17
+%define	version	0.0.17.1
 %define	release	%mkrel 1
 
 %define major	1
@@ -16,7 +16,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  gegl-devel >= 0.0.18 
 BuildRequires:  babl-devel >= 0.0.22
 BuildRequires:  glibmm2.4-devel
-Source0:        %{name}-%{version}.tar.bz2
+Source0:        http://ftp.gnome.org/pub/gnome/sources/geglmm/%{name}-%{version}.tar.bz2
 Group:          System/Libraries
 Summary:        A graphic processing library, C++ bindings
 
