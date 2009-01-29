@@ -1,5 +1,5 @@
 %define	name	geglmm
-%define	version	0.0.17.1
+%define	version	0.0.22
 %define	release	%mkrel 1
 
 %define major	1
@@ -13,10 +13,10 @@ License:        LGPLv3
 URL:		http://gegl.org/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  gcc-c++
-BuildRequires:  gegl-devel >= 0.0.18 
+BuildRequires:  gegl-devel >= 0.0.22
 BuildRequires:  babl-devel >= 0.0.22
 BuildRequires:  glibmm2.4-devel
-Source0:        http://ftp.gnome.org/pub/gnome/sources/geglmm/%{name}-%{version}.tar.bz2
+Source0:        http://ftp.gnome.org/pub/GNOME/sources/geglmm/%{name}-%{version}.tar.bz2
 Group:          System/Libraries
 Summary:        A graphic processing library, C++ bindings
 
