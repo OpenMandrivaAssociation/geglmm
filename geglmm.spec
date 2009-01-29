@@ -1,8 +1,8 @@
 %define	name	geglmm
 %define	version	0.0.22
-%define	release	%mkrel 1
+%define	release	%mkrel 2
 
-%define major	1
+%define major	2
 %define libname %mklibname %{name} %{major}
 %define develname %mklibname %{name} -d
 
@@ -62,7 +62,7 @@ rm -rf "$RPM_BUILD_ROOT"
 
 %files -n %libname
 %defattr(-,root,root)
-%{_libdir}/libgeglmm.so.*
+%{_libdir}/libgeglmm.so.%{major}*
 
 %files -n %develname
 %defattr(-,root,root)
