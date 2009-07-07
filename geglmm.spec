@@ -1,8 +1,8 @@
 %define	name	geglmm
-%define	version	0.0.22
-%define	release	%mkrel 2
+%define	version	0.1.0
+%define	release	%mkrel 1
 
-%define major	2
+%define major	3
 %define libname %mklibname %{name} %{major}
 %define develname %mklibname %{name} -d
 
@@ -13,8 +13,8 @@ License:        LGPLv3
 URL:		http://gegl.org/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  gcc-c++
-BuildRequires:  gegl-devel >= 0.0.22
-BuildRequires:  babl-devel >= 0.0.22
+BuildRequires:  gegl-devel >= 0.1.0
+BuildRequires:  babl-devel >= 0.1.0
 BuildRequires:  glibmm2.4-devel
 Source0:        http://ftp.gnome.org/pub/GNOME/sources/geglmm/%{name}-%{version}.tar.bz2
 Group:          System/Libraries
