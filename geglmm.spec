@@ -10,7 +10,7 @@ Name:           %name
 Version:        %version
 Release:        %release
 License:        LGPLv3
-URL:		http://gegl.org/
+URL:		https://gegl.org/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  gcc-c++
 BuildRequires:  gegl-devel >= 0.1.0
