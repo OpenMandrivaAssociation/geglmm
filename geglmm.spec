@@ -12,6 +12,11 @@ Release:        %release
 License:        LGPLv3
 URL:		https://gegl.org/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  gcc-c++
 BuildRequires:  gegl-devel >= 0.1.0
 BuildRequires:  babl-devel >= 0.1.0
